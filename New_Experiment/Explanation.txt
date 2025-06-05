@@ -1,0 +1,12 @@
+Generate Datasets with the Nguyen dataset plus some experimental error
+Generate random expressions with a default generated probability tree
+For each generated expression:
+    Wiht a BMS generated with the expression and the dataset
+    Compute the .sse, .bic, .energy to get the description length
+    Compute the probability of generating that expression
+Scatter plot the results
+
+Then: 
+With the obtained expressions and description lenghts
+Train a new ProbTree via KL Divergence decrease.
+Scatter plot the probabilites with new probtree vs. the description length
